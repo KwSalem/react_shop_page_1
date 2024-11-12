@@ -1,6 +1,6 @@
-// JavaScript is Below
-// products arrays
-const products = [
+import React from "react";
+
+const ProductList = [
   {
     name: "Chocolate Chip Cookies",
     price: 10,
@@ -27,4 +27,4 @@ const products = [
   },
 ];
 
-export default products;
+export default ProductList;

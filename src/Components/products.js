@@ -1,5 +1,6 @@
 // JavaScript is Below
 // products arrays
+
 const products = [
   {
     name: "Chocolate Chip Cookies",
@@ -27,15 +28,15 @@ const products = [
   },
 ];
 
-const productsList = products.map((product, index) => {
-  return (
-    /*display Pictures and Names' products and Prices  */
-    <div key={index} className="Product-Card">
-      <img src={product.image} alt={product.name} className="Product-Image" />
-      <h2>{product.name}</h2>
-      <p>{product.price} KD</p>
-    </div>
-  );
-});
+// const productsList = products.map((product, index) => {
+//   return (
+//     /*display Pictures and Names' products and Prices  */
+//     <div key={index} className="Product-Card">
+//       <img src={product.image} alt={product.name} className="Product-Image" />
+//       <h2>{product.name}</h2>
+//       <p>{product.price} KD</p>
+//     </div>
+//   );
+// });
 
-export default productsList;
+export default products;

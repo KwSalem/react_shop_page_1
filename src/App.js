@@ -11,8 +11,8 @@ function App() {
     setCount(count + 1);
   }
 
-  const products = productList.map((product) => {
-    return <ProductItem myItem={product} />;
+  const products = productList.map((product, index) => {
+    return <ProductItem myItem={product} key={index} />;
   });
   // JSX Codes is Below
   return (

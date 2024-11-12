@@ -1,18 +1,17 @@
 import React from "react";
-import ProductList from "./ProductList";
-const ProductItem = ProductList.map((ProductList, index) => {
+
+const ProductItem = (props) => {
   return (
-    /*display Pictures, Names' products and Prices  */
-    <div key={index} className="Product-Card">
+    <div className="Product-Card">
       <img
-        src={ProductList.image}
-        alt={ProductList.name}
+        src={props.myItem.image}
+        alt={props.myItem.name}
         className="Product-Image"
       />
-      <h2>{ProductList.name}</h2>
-      <p>{ProductList.price} KD</p>
+      <h2>{props.myItem.name}</h2>
+      <p>{props.myItem.price} KD</p>
     </div>
   );
-});
+};
 
 export default ProductItem;

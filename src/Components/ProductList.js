@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductList = [
+const productList = [
   {
     name: "Chocolate Chip Cookies",
     price: 10,
@@ -25,6 +25,18 @@ const ProductList = [
     image:
       "https://d1lgpy5kbjv9mr.cloudfront.net/public%2Frecipe%2Fthumbnail%2F1711352923728%2FUntitled_design_23_.png",
   },
+  {
+    name: "Cute Cookies",
+    price: 50,
+    image:
+      "https://d1lgpy5kbjv9mr.cloudfront.net/public%2Frecipe%2Fthumbnail%2F1710918285725%2FUntitled_design_17_.png",
+  },
+  {
+    name: "Cute Cookies",
+    price: 50,
+    image:
+      "https://d1lgpy5kbjv9mr.cloudfront.net/public%2Frecipe%2Fthumbnail%2F1711352709284%2FUntitled_design_21_.png",
+  },
 ];
 
-export default ProductList;
+export default productList;
